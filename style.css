@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradiend(to bottom, rgba(255, 192, 203, 0.4), rgba(255, 255, 255, 0.6)), url('background.jpg') no repeat center center fixed;
+    background-size: cover;
+    color:darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 3s ease-in;
+
+}
+
+.card {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8em;
+    color:darkorchid;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.6);
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(50px);}
+    to { opacity: 1; tranform: translateY(0)}
+}
